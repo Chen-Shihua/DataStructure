@@ -1,9 +1,10 @@
-//½£Ö¸offer£ºÖØ½¨¶þ²æÊ÷ (reConstBiTree)
+//å‰‘æŒ‡offerï¼šé‡å»ºäºŒå‰æ ‘ (reConstBiTree)
+//2019.05.19
 /* 
-ÊäÈëÄ³¶þ²æÊ÷µÄÇ°Ðò±éÀúºÍÖÐÐò±éÀúµÄ½á¹û£¬ÇëÖØ½¨³ö¸Ã¶þ²æÊ÷¡£
-¼ÙÉèÊäÈëµÄÇ°Ðò±éÀúºÍÖÐÐò±éÀúµÄ½á¹ûÖÐ¶¼²»º¬ÖØ¸´µÄÊý×Ö¡£
-ÀýÈçÊäÈëÇ°Ðò±éÀúÐòÁÐ{1,2,4,7,3,5,6,8}ºÍ
-ÖÐÐò±éÀúÐòÁÐ{4,7,2,1,5,3,8,6}£¬ÔòÖØ½¨¶þ²æÊ÷²¢·µ»Ø¡£*/
+è¾“å…¥æŸäºŒå‰æ ‘çš„å‰åºéåŽ†å’Œä¸­åºéåŽ†çš„ç»“æžœï¼Œè¯·é‡å»ºå‡ºè¯¥äºŒå‰æ ‘ã€‚
+å‡è®¾è¾“å…¥çš„å‰åºéåŽ†å’Œä¸­åºéåŽ†çš„ç»“æžœä¸­éƒ½ä¸å«é‡å¤çš„æ•°å­—ã€‚
+ä¾‹å¦‚è¾“å…¥å‰åºéåŽ†åºåˆ—{1,2,4,7,3,5,6,8}å’Œ
+ä¸­åºéåŽ†åºåˆ—{4,7,2,1,5,3,8,6}ï¼Œåˆ™é‡å»ºäºŒå‰æ ‘å¹¶è¿”å›žã€‚*/
 TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> vin){
 	if(pre.size()==0||vin.size()==0)	return NULL;
 	vector<int> prea,preb,vina,vinb;
